@@ -1,0 +1,220 @@
+*{
+	padding:0px;
+	margin: 0px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+body {
+	font-family: roboto; 
+	background: url(imgHoteis/fotoFundotransp.jpg);
+	background-image: 10%;
+}
+
+ul{
+	list-style: none;
+}
+
+input[type="checkbox"]
+{
+    display: none;
+}
+
+#logo{
+	margin-top: 15px;
+	margin-left: -10px;
+}
+
+#icon{
+	color: #A7B802;
+	font-family: roboto; 
+}
+
+nav{
+	background-color: rgba(0,0,0,0.8);
+	width: 250px;
+	height: 148%;
+	left: -250px;
+	position: absolute;
+	transition: all.5s;
+}
+
+
+input[type="checkbox"]:checked ~ nav
+{
+	transform: translateX(250px);
+	position: fixed(100px);
+}
+
+ul{
+	top: 170px;
+	position: absolute;
+	width: 100%;
+}
+
+a{
+	display: block;
+	padding: 11.5px 45px;
+	color: white;
+}
+
+a:hover{
+	color: #A7B802;
+}
+
+label{
+	padding:0.5px 40px;
+	position: absolute;
+	z-index: 1;
+}
+
+div{ 
+	border : 0px;
+}
+
+input[type=text] {
+	width: 50%;
+	box-sizing: border-box;
+	border: 2px solid #ccc;
+	border-radius: 4px;
+	font-size: 16px;
+	background-color: white;
+	background-image: url('searchicon.png');
+	background-position: 10px 10px; 
+	background-repeat: no-repeat;
+	padding: 12px 20px 12px 40px;
+}
+select {
+	width: 15%;
+	height: 16.5%;
+	padding: 16px 20px;
+	border: 2px solid #ccc;
+	border-radius: 4px;
+	background-color: white;
+}
+fieldset{
+	margin-left: 200px;
+	margin-right: 200px;
+	margin-top: 20px;
+	border-radius: 4px;
+}
+legend{
+	margin-left: 40px;
+}
+
+h3{
+	margin-left: 60px;
+}
+
+#date{
+	box-sizing: border-box;
+	border: 2px solid #ccc;
+	padding: 12px 0px 12px 10px;
+	border-radius: 4px;
+	margin-left: 40px;
+}
+
+#entrada{
+	font-size: 16px;
+	padding: 2px 5px 12px 50px;
+}
+
+.linha1{
+	margin-left: 40px;
+}
+
+#principal {
+	width : 1348px;
+	height: 720px;
+	margin: 0px auto;
+	border: none;
+}
+
+#resort{
+    border-radius: 50%;  
+    width:15%; 
+    height:60%; 
+}
+
+#menu {
+	height: 555px;
+	margin-bottom:4px;
+}
+
+#conteudo {
+	height: 300px;
+	
+}
+
+.opcao{
+	margin-left: 40px;
+	margin-bottom: 30px;
+}
+
+#quarto{
+	font-size: 14px;
+}
+
+#adulto{
+	margin-left: 20px;
+}
+
+#crianca{
+	margin-left: 20px;
+}
+
+#buscar{
+	box-sizing: border-box;
+	border: 2px solid #ccc;
+	padding: 9px 18px 13px 19px;
+	border-radius: 4px;
+	background-color: white;
+	margin-left: 120px;
+	font-size: 18px;
+}
+
+#destaques-section  {
+	height: 490px;
+	margin-top: 20px;
+	margin-left: 30px;
+	
+}
+
+.dicas-section{
+	width: 100%;
+	float: left;
+}
+
+.dicas-hoteis{
+	float: left;
+}
+
+.dicas-hoteis figure{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	overflow: hidden;
+	margin-top: 50px;
+	margin-left: 99px;
+}
+
+.dicas-hoteis figure img{
+	width: 100%;
+	height: 100%;
+}
+
+#rodape {
+	margin-bottom: 1px;		
+}
+
+
+h4{
+	color: #4F94CD;
+	margin-left: 32%;
+}
+
+
+

@@ -1,0 +1,219 @@
+*{
+	padding:0px;
+	margin: 0px;
+	font-family: 'Open Sans', sans-serif;
+	box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+body {
+	font-family: roboto; 
+	background: url(imgCruzeiros/fotoFundo.jpg);
+	background-size: 100%;
+}
+
+ul{
+	list-style: none;
+}
+
+input[type="checkbox"]
+{
+    display: none;
+}
+
+#logo{
+  margin-top: 15px;
+  margin-left: -10px;
+}
+
+#icon{
+  color: #F0F8FF;
+  font-family: roboto; 
+}
+
+nav{
+	background-color: rgba(0,0,0,0.8);
+	width: 250px;
+	height: 111%;
+	left: -250px;
+	position: absolute;
+	transition: all.5s;
+}
+
+
+input[type="checkbox"]:checked ~ nav
+{
+	transform: translateX(250px);
+	position: fixed(0px);
+}
+
+ul{
+	top: 170px;
+	position: absolute;
+	width: 100%;
+}
+
+a{
+	display: block;
+	padding: 9.6px 45px;
+	color: white;
+}
+
+a:hover{
+	color: #A7B802 ;
+}
+
+label{
+	padding:0.5px 40px; 
+	position: absolute;
+	z-index: 1;
+}
+
+div{ 
+	border : 0px;
+}
+
+
+#menu {
+	height: 624.7px;
+	margin-bottom:4px;
+	background: url('imgCruzeiros/cruzeiro.jpg') no-repeat center;
+	background-size: 100%;
+}
+
+#conteudo {
+	height:530px;
+}
+
+#rodape {
+	margin-bottom: 1px;	
+	margin-top: 50px;	
+}
+
+h4{
+  color: #4F94CD;
+  margin-left: 32%;
+}
+
+
+
+.fieldset{
+	height: 100px;
+	margin-right: 30px;
+	color: #4F94CD;
+}
+
+#input {
+	text-align: center;
+	margin-top: 30px;
+}
+
+.destino {
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	font-family: 'Roboto', sans-serif;
+}
+
+
+.dicas-section{
+	width: 100%;
+	float: left;
+	padding-left: 20px;
+	margin-top: 60px;
+	margin-bottom: 50px;
+}
+.dicas-cruzeiros{
+	float: left;
+}
+.dicas-cruzeiros figure{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	overflow: hidden;
+	margin-top: 50px;
+	margin-left: 50px;
+	margin-bottom: 20px;
+	transition: .5s;
+}
+.dicas-cruzeiros figure img{
+	width: 100%;
+	height: 100%;
+		
+}
+
+.dicas-cruzeiros figure:hover{
+	width: 250px;
+	height: 250px;
+}
+
+.dicas-cruzeiros h4{
+	text-align: center;
+	margin-left: 50px;
+	color: #4F94CD;
+}
+
+
+
+.disponivel-cruzeiros{
+	margin-top: 60px;
+	width: 100%;
+	float: left;
+	padding-left: 20px;
+	margin-bottom: 50px;
+}
+.disponivel-cruzeiros h3{
+	text-align: center;
+	color: #4F94CD;
+	font-style: italic;
+}
+.caixa{
+		width: 300px;
+		height: 75px;
+		border: none;
+		float: left;
+		margin: 10px;
+		margin-top: 50px;
+}
+
+.principais-destinos{
+	margin-top: 60px;
+	width: 100%;
+	float: left;
+	padding-left: 20px;
+	margin-bottom: 50px;
+}
+
+.fig-destinos{
+	width: 50%;
+	margin-top: 20px;
+}
+
+.fig-destinos figure{
+	width: 100%;
+	float: left;
+	margin: 10px;
+}
+
+.fig-destinos figure img{
+	float: left;
+	margin: 10px;
+	}
+.caixa-destinos{
+	width: 350px;
+	height: 550px;
+	border: none;
+	float: right;
+	margin-right: 100px;
+	margin-top: 160px;
+}
+
+.caixa-destinos h3{
+text-align: center;
+color: #4F94CD;
+font-style: italic;
+}

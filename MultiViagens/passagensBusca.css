@@ -1,0 +1,191 @@
+*{
+	padding:0px;
+	margin: 0px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+body {
+	font-family: roboto; 
+	background: url(imgspa/fotoFundo.jpg);
+	background-size: 10%;
+}
+
+ul{
+	list-style: none;
+}
+
+input[type="checkbox"]
+{
+    display: none;
+}
+
+#logo{
+  margin-top: 15px;
+  margin-left: -10px;
+}
+
+#icon{
+  color: #F0F8FF;
+  font-family: roboto; 
+}
+
+nav{
+	background-color: rgba(0,0,0,0.8);
+	width: 250px;
+	height: 110.7%;
+	left: -250px;
+	position: absolute;
+	transition: all.5s;
+}
+
+
+input[type="checkbox"]:checked ~ nav
+{
+	transform: translateX(250px);
+	position: fixed(0px);
+}
+
+ul{
+	top: 170px;
+	position: absolute;
+	width: 100%;
+}
+
+a{
+	display: block;
+	padding: 9.6px 45px;
+	color: white;
+}
+
+a:hover{
+	color: #A7B802 ;
+}
+
+label{
+	padding:0.5px 40px; 
+	position: absolute;
+	z-index: 1;
+}
+
+div{ 
+	border : 0px;
+}
+
+
+#menu {
+	height: 555px;
+	margin-bottom:30px;
+}
+
+#conteudo {
+	height:530px;
+}
+
+#rodape {
+  margin-bottom: 1px;		
+}
+
+h4{
+  color: #4F94CD;
+  margin-left: 32%;
+}
+
+#principal {
+	width : 1348px;
+	height: 720px;
+	margin: 0px auto;
+	border: none;
+	
+	}
+
+
+
+
+			#pesquisaEsquerda {
+			/* Cor	background-color : #DEEBF7; */
+				height:100px;
+				width : 1345px;
+			/*	float: left;  */
+				margin-bottom:10px;
+				margin-left: auto;
+				margin-right: auto;
+				border: solid lightgrey;
+				border-radius:15px;
+			}
+.btn2 {			
+		background:    #ff0000;
+		border-radius: 11px;
+		padding:       2px 5px;
+		display:       inline-block;
+		text-align:    center;
+}
+.btn1 {background:    #3d85c6;
+border-radius: 11px;
+padding:       2px 3px;
+display:       inline-block;
+text-align:    center;}
+			
+
+	table {
+    border-collapse: separate;
+    border-spacing: 15;
+	border: 1px ;
+    border-radius: 1px;
+    -moz-border-radius: 1px;
+    padding: 1px;
+}
+
+	#opcaodeViagens1{
+				height:250px;
+				width: 1000px;
+				margin-left: auto;
+				margin-right: auto;
+				clear : both;
+				background-color: rgba(100, 100, 100, 0.5);
+				margin-bottom:10 px; 
+				border: solid lightgrey;border-radius:15px;
+				}
+					#opcaodeViagens2{
+				height:250px;
+				width: 1000px;
+				margin-left: auto;
+				margin-right: auto;
+				clear : both;
+				background-color: rgba(100, 100, 100, 0.5);
+				margin-bottom:10 px; 
+				border: solid lightgrey;border-radius:15px;
+				
+				}
+
+					#opcaodeViagens3{
+				height:250px;
+				width: 1000px;
+				margin-left: auto;
+				margin-right: auto;
+				clear : both;
+				background-color: rgba(100, 100, 100, 0.5);
+				margin-bottom:10px; 
+				border: solid lightgrey;border-radius:15px;
+				}
+			
+}
+			
+#rodape {
+	margin-bottom: 1px;	
+	border-top: 1px solid;
+	height:100px;
+}
+				
+			
+			body{
+				background:url(imgspa/fotofundo.jpg);
+				background-size:cover;
+				font-size:16px;
+				font-family: roboto;
+			/*	color : black; */
+				
+			}

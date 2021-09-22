@@ -1,0 +1,192 @@
+*{
+	padding:0px;
+	margin: 0px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+body {
+	font-family: roboto; 
+	background: url(img/fotoFundo.jpg);
+	background-size: 10%;
+}
+
+ul{
+	list-style: none;
+}
+
+input[type="checkbox"]
+{
+    display: none;
+}
+
+#logo{
+  margin-top: 15px;
+  margin-left: -10px;
+}
+
+#icon{
+  color: #F0F8FF;
+  font-family: roboto; 
+}
+
+nav{
+	background-color: rgba(0,0,0,0.8);
+	width: 250px;
+	height: 110.7%;
+	left: -250px;
+	position: absolute;
+	transition: all.5s;
+}
+
+
+input[type="checkbox"]:checked ~ nav
+{
+	transform: translateX(250px);
+	position: fixed(0px);
+}
+
+ul{
+	top: 170px;
+	position: absolute;
+	width: 100%;
+}
+
+a{
+	display: block;
+	padding: 9.6px 45px;
+	color: white;
+}
+
+a:hover{
+	color: #A7B802 ;
+}
+
+label{
+	padding:0.5px 40px; 
+	position: absolute;
+	z-index: 1;
+}
+
+div{ 
+	border : 0px;
+}
+
+
+#menu {
+	height: 555px;
+	margin-bottom:30px;
+}
+
+#conteudo {
+	height:530px;
+}
+
+#rodape {
+  margin-bottom: 1px;		
+}
+
+h4{
+  color: #4F94CD;
+  margin-left: 32%;
+}
+
+#principal {
+	width : 1348px;
+	height: 720px;
+	margin: 0px auto;
+	border: none;
+			}
+
+#pesquisa {
+	width : 650px;
+	height: 200px;
+/*	border: solid black; */
+	border-radius:15px;
+	margin-top:5px;
+	margin-left: auto ;
+	margin-right: auto ;
+			}
+	.column {
+  float: left;
+  width: 50%;
+	}
+#opcaodeViagens {
+	width : 1348px;
+	height: 375px;
+/*	border: solid black; */
+	border-radius:15px;
+	margin-top:15px;
+	margin-left: auto ;
+	margin-right: auto ;
+				}
+fieldset {
+	border-radius:15px;
+	border: solid lightgray;
+	
+	}
+	
+	.caixa {
+				border:1px solid lightgray; 
+				width:220px;  
+				height:300px; 
+				margin-left :20px;
+				float:left;
+				margin:22px;
+				text-align:center;
+				
+		}
+	#d1 { border-radius:15px; background: url(imgspa/rje.jpg);}
+	#d2 { border-radius:15px; background: url(imgspa/le.jpg);}
+	#d3 { border-radius:15px; background: url(imgspa/se.jpg);}
+	#d4 { border-radius:15px; background: url(imgspa/sydneye.jpg);}
+	#d5 { border-radius:15px; background: url(imgspa/img4e.jpg);}
+		
+	.btn1 {			
+		background:    #ff0000;
+		border-radius: 11px;
+		padding:       2px 5px;
+		display:       inline-block;
+		text-align:    center;
+}
+.btn2 {background:    #3d85c6;
+border-radius: 11px;
+padding:       2px 3px;
+display:       inline-block;
+text-align:    center;}
+.btn3 {
+background:    #bf9000;
+border-radius: 11px;
+padding:       5px 10px;
+color:         #666666;
+display:       inline-block;
+text-align:    center;
+}
+
+#email {
+	height: 60px;
+	border: 1px;
+	text-align:center;
+	margin-top:30px;
+	background-color: lightgray;
+	border-radius:15px;
+	
+}			
+					
+#rodape {
+	margin-bottom: 1px;	
+	margin-top:2px;
+	
+		}
+				
+			
+	body{
+		background:url(imgspa/fotofundo.jpg);
+		background-size:cover;
+		font-size:16px;
+		font-family: roboto;
+		color : black;
+		}

@@ -1,0 +1,260 @@
+*{
+	padding:0px;
+	margin: 0px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+body {
+	font-family: roboto; 
+	background: url(img/fotoFundo.jpg);
+	background-image: 10%;
+}
+
+ul{
+	list-style: none;
+}
+
+input[type="checkbox"]
+{
+    display: none;
+}
+
+#logo{
+	margin-top: 15px;
+	margin-left: -10px;
+}
+
+#icon{
+	color: #F0F8FF;
+	font-family: roboto; 
+}
+
+nav{
+	background-color: rgba(0,0,0,0.8);
+	width: 250px;
+	height: 111%;
+	left: -250px;
+	position: absolute;
+	transition: all.5s;
+}
+
+
+input[type="checkbox"]:checked ~ nav
+{
+	transform: translateX(250px);
+	position: fixed(100px);
+}
+
+ul{
+	top: 170px;
+	position: absolute;
+	width: 100%;
+}
+
+a{
+	display: block;
+	padding: 11.5px 45px;
+	color: white;
+}
+
+a:hover{
+	color: #A7B802 ;
+}
+
+label{
+	padding:0.5px 40px;
+	position: absolute;
+	z-index: 1;
+}
+
+div{ 
+	border : 0px;
+}
+
+input[type=text] {
+	width: 50%;
+	box-sizing: border-box;
+	border: 2px solid #ccc;
+	border-radius: 4px;
+	font-size: 16px;
+	background-color: white;
+	background-image: url('searchicon.png');
+	background-position: 10px 10px; 
+	background-repeat: no-repeat;
+	padding: 12px 20px 12px 40px;
+}
+select {
+	width: 15%;
+	height: 16.5%;
+	padding: 16px 20px;
+	border: 2px solid #ccc;
+	border-radius: 4px;
+	background-color: white;
+}
+fieldset{
+	margin-left: 30px;
+	margin-right: 300px;
+	margin-top: 20px;
+	border-radius: 4px;
+}
+legend{
+	margin-left: 40px;
+}
+
+h3{
+	margin-left: 60px;
+}
+
+#date{
+	box-sizing: border-box;
+	border: 2px solid #ccc;
+	padding: 12px 0px 12px 10px;
+	border-radius: 4px;
+	margin-left: 40px;
+}
+
+#entrada{
+	font-size: 16px;
+	padding: 2px 5px 12px 50px;
+}
+
+.linha1{
+	margin-left: 40px;
+}
+
+#principal {
+	width : 1348px;
+	height: 720px;
+	margin: 0px auto;
+	border: none;
+}
+
+#resort{
+    border-radius: 50%;  
+    width:15%; 
+    height:60%; 
+}
+
+#menu {
+	height: 555px;
+	margin-bottom:4px;
+}
+
+#conteudo {
+	height: 300px;
+	
+}
+
+.opcao{
+	margin-left: 40px;
+	margin-bottom: 30px;
+}
+
+#quarto{
+	font-size: 14px;
+}
+
+#adulto{
+	margin-left: 20px;
+}
+
+#crianca{
+	margin-left: 20px;
+}
+
+#buscar{
+	box-sizing: border-box;
+	border: 2px solid #ccc;
+	padding: 9px 18px 13px 19px;
+	border-radius: 4px;
+	background-color: white;
+	margin-left: 120px;
+	font-size: 18px;
+}
+
+#dicas  {
+	height: 490px;
+	margin-top: 20px;
+	margin-left: 30px;
+}
+
+#rodape {
+	margin-bottom: 1px;		
+}
+
+
+h4{
+	color: #4F94CD;
+	margin-left: 32%;
+}
+
+
+.content-all{
+    width: 200px;
+    margin: auto;
+    perspective: 680px;
+    position: relative;
+    margin-top: 70px;
+}
+
+.content-carrousel{
+    width: 100%;
+    position: absolute;
+    animation: rotar 20s infinite linear;
+    transform-style: preserve-3d;
+}
+
+.content-carrousel:hover{
+    animation-play-state: paused;
+    cursor: pointer;
+}
+
+
+.content-carrousel figure{
+    width: 80%;
+    height: 165px;
+    border: 60px;
+    border-radius: 100px;
+    overflow: hidden;
+    position: absolute;
+    box-shadow: 0px 0px 20px 0px black;
+    transition: all 360ms;
+    
+}
+
+.content-carrousel figure:hover{
+    box-shadow: 0px 0px 0px 0px black;
+    transition: all 360ms;
+}
+
+.content-carrousel figure:nth-child(1){transform: rotateY(0deg) translateZ(300px);}
+.content-carrousel figure:nth-child(2){transform: rotateY(70deg) translateZ(300px);}
+.content-carrousel figure:nth-child(3){transform: rotateY(130deg) translateZ(300px);}
+.content-carrousel figure:nth-child(4){transform: rotateY(190deg) translateZ(300px);}
+.content-carrousel figure:nth-child(5){transform: rotateY(250deg) translateZ(300px);}
+.content-carrousel figure:nth-child(6){transform: rotateY(310deg) translateZ(300px);}
+.content-carrousel figure:nth-child(7){transform: rotateY(380deg) translateZ(300px);}
+
+.content-carrousel img{
+    width: 100%;
+    transition: all 360ms;
+}
+
+.content-carrousel img:hover{
+    transform: scale(1.0);
+    transition: all 360ms;
+}
+
+
+@keyframes rotar{
+    from{
+        transform: rotateY(0deg);
+    }to{
+        transform: rotateY(360deg);
+    }
+}
+

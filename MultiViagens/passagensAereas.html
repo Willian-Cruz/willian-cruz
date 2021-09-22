@@ -1,0 +1,182 @@
+<html lang="pt-br">
+    <head>
+	    <meta charset="utf-8">
+        <title>Multi Viagens - Passagens Aereas</title>
+        <link rel="stylesheet" href="passagensAereas.css">
+    </head>
+    <body>
+    <div id="principal">	
+    <div id="menu">
+    	<input type="checkbox" id="check">
+	    <label for="check"><br>
+		
+		    <img id="logo" src="imgspa/MULTIv.png" width="195" height="115">
+			<br>
+		    <img src="imgspa/blue.png" width="60px" height="40px">
+            <div id="icon">&nbsp;MENU</div>
+			
+	    </label>
+    <nav>
+    	<ul><br><br><br><br>
+    		<li><a href="Resorts.html"><strong>RESORTS</strong></a></li><br>
+    		<li><a href="Cruzeiros.html"><strong>CRUZEIROS</strong></a></li><br>
+    		<li><a href="passagensAereas.html"><strong>PASSAGENS<br>AÉREAS</strong></a></li><br>
+    		<li><a href="Hoteis.html"><strong>HOTÉIS</strong></a></li><br>
+    		<li><a href="dicas.html"><strong>DICAS DE VIAGEM</strong></a></li><br>
+    		<li><a href="Fale_Conosco.html"><strong>FALE CONOSCO</strong></a></li>
+    	</ul>
+    </nav>
+        <img src="imgspa/jet.jpg"width="100%" height="112%">
+        
+        <hr>
+    </div>
+		<br>
+		<br>
+		<br>
+			
+	<div id="pesquisa">
+		<br>
+	<fieldset>
+					<legend><h1>Pesquisa</h1></legend>
+					<div class="column">
+				  &emsp;<input  type="radio"
+							value="ida"
+							checked
+							name="sexo"> Ida &emsp;
+						<input 	type="radio"
+							value="idaVolta"
+							name="sexo"> Ida e Volta &emsp;
+						<input 	type="radio"
+							value="multi"
+							name="sexo"> Multidestinos <br>
+						
+		&emsp;  	Origem:
+						<input list="Origem" size="28" required>
+					<datalist id="Origem">
+						<option value="SP,São Paulo,Guarulhos ">
+						<option value="SP,São Paulo,Congonhas">
+						<option value="RJ,Rio de Janeiro,Santos Dumont">
+						<option value="RJ,Rio de Janeiro,Santos Galeão">
+						<option value="AL,Maceio,Zumbi dos Palmares ">
+					</datalist>	<br> &emsp;
+				   Destino:
+						<input list="Destino" size="28">
+					<datalist id="Destino">
+						<option value="SP,São Paulo,Guarulhos ">
+						<option value="SP,São Paulo,Congonhas">
+						<option value="RJ,Rio de Janeiro,Santos Dumont">
+						<option value="RJ,Rio de Janeiro,Santos Galeão">
+						<option value="AL,Maceio,Zumbi dos Palmares ">
+					</datalist> <br> &emsp;
+					Datas Ida :
+						<input id="date" type="date"
+						min="2020-05-16"
+						max="2021-12-30">	<br>&emsp;
+					Datas Volta :
+						<input id="date" type="date"
+						min="2020-05-16"
+						max="2021-12-30">   <br>
+					</div>
+					<div class="column"> &emsp;&emsp;
+						Passageiros Adultos:
+				<input 	type="number"
+					name="passageiroMaior"
+					min="1" 
+					max="15">
+				</select> <br> &emsp;&emsp;
+				Passageiros Menores:
+				<input 	type="number"
+					name="passageiroMenor"
+					min="1" 
+					max="15">
+				</select> <br> &emsp;&emsp;
+				Classe:
+			<select name="tipo">
+				<option selected>Economica</option>
+				<option >Premium economy</option>
+				<option >Executica/Business</option>
+				<option >Primeira Classe</option>
+		   </select> <br><br>
+				
+		&emsp;&emsp;
+		<button class="btn1" type="reset">
+		Limpar
+		</button>&emsp; 
+		<button class="btn2" type="submit">
+		<a href="passagensBusca.html">&#128269;Buscar</a>
+		</button> <br><br>
+					</div>
+		
+	</fieldset>
+	
+	</div> 	
+				
+				
+			
+<!--Opção de viagens-->			
+	<div id="opcaodeViagens">
+		<fieldset>
+					<legend><h1>Recomendações de Viagens</h1></legend>
+	
+	<div id="d1" class="caixa"> <br><br><br><br><br><br><br><br><br><br><br>
+			Rio de Janeiro <br>
+			<b>R$ 246</b> <br><br>
+			<button class="btn2">
+		<a href="eC.html">Reservar</a>
+			</button>
+		</div>
+		<div id="d2" class="caixa"> <br><br><br><br><br><br><br><br><br><br><br>
+			Lisboa <br>
+			<b>R$ 1.250</b> <br><br>
+			<button class="btn2">
+		<a href="eC.html">Reservar</a>
+			</button>
+		</div>
+			<div id="d3" class="caixa"> <br><br><br><br><br><br><br><br><br><br><br>
+			Salvador <br>
+			<b>R$ 352</b> <br><br>
+			<button class="btn2">
+		<a href="eC.html">Reservar</a>
+			</button>
+		</div>
+		<div id="d4" class="caixa"> <br><br><br><br><br><br><br><br><br><br><br>
+			Sydney <br>
+			<b>R$ 1.940</b> <br><br>
+			<button class="btn2">
+		<a href="eC.html">Reservar</a>
+			</button>
+		</div>
+		<div id="d5" class="caixa"> <br><br><br><br><br><br><br><br><br><br><br>
+			Paris <br>
+			<b>R$ 2.250</b> <br><br>
+			<button class="btn2">
+		<a href="eC.html">Reservar</a>
+			</button>
+			<br><br><br>	
+		</fieldset><br><br><br>
+	</div>
+	
+	<div id="email"><br>
+	<h2>Ofertas por Email :
+			<input 	type="email"
+					maxlength="100"
+					size="30"
+					name="email"
+					required>&emsp; 
+			
+			
+			<input class="btn3" type="submit" Value="Cadastrar">
+				 </h2>
+	</div>
+	
+		<br>
+        <div id="rodape">
+		<hr><hr>
+		  <a id="face" href="https://www.facebook.com/MULTI-Viagens-103575341348639/?modal=admin_todo_tour/"><img src="imgspa/facebook.png" width="5.5%" height="6.5%" align="left"></a><br>
+          <h4>2020 MULTI VIAGENS - TODOS OS DIREITOS RESERVADOS</h4>
+		  <a id="insta" href="https://www.instagram.com/multi.viagens/"><img src="imgspa/instagram.png" width="5.5%" height="6.5%" align="left"></a><br><br>
+        </div>            
+    </div> 
+	
+    </body>
+</html>

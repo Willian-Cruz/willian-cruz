@@ -1,0 +1,90 @@
+*{
+	padding:0px;
+	margin: 0px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+body#estrutura {
+	font-family: roboto; 
+	background-color: black;
+	background-size: 100%;
+	background: url(imgDicas/fotoFundo.jpg) no-repeat;
+}
+ul{
+	list-style: none;
+}
+
+input[type="checkbox"]
+{
+    display: none;
+}
+
+#logo{
+  margin-top: 15px;
+  margin-left: -10px;
+}
+
+#icon{
+  color: #F0F8FF;
+  font-family: roboto; 
+}
+
+nav{
+	background-color: rgba(0,0,0,0.8);
+	width: 250px;
+	height: 100%;
+	left: -250px;
+	position: absolute;
+	transition: all.5s;
+}
+
+
+input[type="checkbox"]:checked ~ nav
+{
+	transform: translateX(270px);
+	position: fixed(0px);
+}
+
+ul#itensMenu{
+	top: 170px;
+	position: absolute;
+	width: 100%;
+}
+
+ul#itensMenu a{
+	display: block;
+	padding: 9.6px 45px;
+	color: white;
+}
+
+ul#itensMenu a:hover{
+	color: #A7B802 ;
+}
+
+label{
+	padding:0.5px 40px; 
+	position: absolute;
+	z-index: 1;
+}
+
+div{ 
+	border : 0px;
+}
+
+#menu {
+	height: 555px;
+	margin-bottom:4px;
+}
+
+#rodape {
+  margin-bottom: 1px;		
+}
+
+h4{
+  color: #4F94CD;
+  margin-left: 32%;
+}
