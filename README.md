@@ -24,10 +24,10 @@ Essas são minhas skills até o momento:
 <br>
 <br>
 Entre meus hobbies estão:
-- Filmes :cinema:
-- Séries :tv:
-- Games :video_game:
-- Música(Não vivo sem) :headphones:
+- Filmes 
+- Séries
+- Games 
+- Música(Não vivo sem) 
 - Leitura(Inclusive quadrinhos e graphic novels) :books:
 <br>
 
