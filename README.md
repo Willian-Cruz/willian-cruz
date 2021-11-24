@@ -27,11 +27,11 @@ Entre meus hobbies estão:
 - Filmes 
 - Séries
 - Games 
-- Música(Não vivo sem) 
-- Leitura(Inclusive quadrinhos e graphic novels) :books:
+- Música(Não vivo sem)
 <br>
+<img align="left" width="40" height="40" src="https://i.pinimg.com/originals/c4/b2/76/c4b27659c678e4827a7cbabb98e6e81e.jpg"><br>
+#Ubuntu<br>
 
-Muito importante ressaltar que :coffee: é vida :sunglasses:!
 
 ## Entre em contato comigo
 [![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/willian-da-cruz-adolpho)](https://www.linkedin.com/in/willian-da-cruz-adolpho)
