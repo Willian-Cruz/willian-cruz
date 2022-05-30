@@ -23,12 +23,6 @@ Essas são minhas skills até o momento:
 <img align="left" width="40" height="40" src="https://img2.gratispng.com/20190212/hwz/kisspng-cloud-database-database-server-flat-file-oracle-da-data-base-server-svg-png-icon-free-download-5229-5c626aab2098a8.3594180915499537071335.jpg"><br>
 <br>
 <br>
-Entre meus hobbies estão:
-- Filmes 
-- Séries
-- Games 
-- Música(Não vivo sem)
-<br>
 <img align="left" width="40" height="40" src="https://i.pinimg.com/originals/c4/b2/76/c4b27659c678e4827a7cbabb98e6e81e.jpg"><br>
 #Ubuntu<br>
 
