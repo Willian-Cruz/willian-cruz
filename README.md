@@ -4,28 +4,18 @@ Estudante na Digital House Brasil. 👨🏾‍🎓
 <br>
 Curso: Certified Tech Developer -  Desenvolvimento WEB 👨🏾‍💻
 
-Essas são minhas skills até o momento:
-<br>HTML5 - Intermediário
-<img align="left" width="40" height="40" src="https://www.freepnglogos.com/uploads/html5-logo-png/html5-logo-html-logo-0.png"><br>
-<br>CSS3 - Intermediário
-<img align="left" width="40" height="40" src="https://www.freepnglogos.com/uploads/html5-logo-png/html5-logo-opencode-css-8.png"><br>
-<br>JavasCript - Iniciante 
-<img align="left" width="40" height="40" src="https://pcodinomebzero.neocities.org/Imagens/javascript1.png"><br>
-<br>Python - Iniciante
-<img align="left" width="60" height="40" src="https://img2.gratispng.com/20180320/fkq/kisspng-angle-text-symbol-brand-other-python-5ab0c09b32b4d1.7494578715215330832077.jpg"><br>
-<br>GIT/GitHub - Iniciante
-<img align="left" width="40" height="40" src="https://www.freepnglogos.com/uploads/512x512-logo/512x512-transparent-logo-github-logo-24.png"><br>
-<br>Node.js - Iniciante
-<img align="left" width="40" height="40" src="https://user-images.githubusercontent.com/37783914/134197235-9e1f72e8-728d-4a01-ad0b-daa2926dc06d.png"><br>
-<br>Lógica de Programação - Intermediário
-<img align="left" width="60" height="40" src="https://img2.gratispng.com/20180529/hwx/kisspng-software-framework-network-performance-software-de-mechanical-gear-5b0d6932cb66e4.2933447315276055548331.jpg"><br>
-<br>Banco de dados - Iniciante
-<img align="left" width="40" height="40" src="https://img2.gratispng.com/20190212/hwz/kisspng-cloud-database-database-server-flat-file-oracle-da-data-base-server-svg-png-icon-free-download-5229-5c626aab2098a8.3594180915499537071335.jpg"><br>
-<br>
-<br>
-<img align="left" width="40" height="40" src="https://i.pinimg.com/originals/c4/b2/76/c4b27659c678e4827a7cbabb98e6e81e.jpg"><br>
-#Ubuntu<br>
-
+<div align="center">
+  <a href="https://github.com/Willian-Cruz">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=willian-cruz&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=willian-cruz&layout=compact&langs_count=7&theme=dracula"/>
+</div>
+  
+  <div style="display: inline_block"><br>
+  <img align="center" alt="Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
+  <img align="center" alt="Rafa-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+  <img align="center" alt="Rafa-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+  <img align="center" alt="Rafa-Python" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
+</div>
 
 ## Entre em contato comigo
 [![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/willian-da-cruz-adolpho)](https://www.linkedin.com/in/willian-da-cruz-adolpho)
