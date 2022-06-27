@@ -2,7 +2,6 @@
 
 Dev em formação  👨🏾‍🎓
 <br>
-Curso: Certified Tech Developer -  Desenvolvimento WEB by [Digital House Brasil](https://www.digitalhouse.com/br/produtos/programacao/certified-tech-developer)  👨🏾‍💻
 
 <div align="center">
   <a href="https://github.com/Willian-Cruz">
