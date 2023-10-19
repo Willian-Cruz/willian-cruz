@@ -1,6 +1,7 @@
 # Bem - Vindos!
 
 Dev em formação  👨🏾‍🎓
+Data Science 
 <br>
 <div align="center">
   <a href="https://github.com/Willian-Cruz/">
